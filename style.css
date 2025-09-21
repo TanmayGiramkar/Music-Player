@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: slategrey;
+}
+
+nav{
+    font-family: 'Circular', 'Montserrat', 'Poppins', 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Circular', 'Montserrat', 'Poppins', 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    width: 70%;
+    margin:23px auto;
+    padding: 34px;
+    /* border-radius: 13px; */
+    background-image: url("bgm.jpg");
+    /* background-size: 600px 550px; */
+    background-size: auto;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    color: white;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 23px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+
+.songItemContainer{
+    margin-top: 80px;
+}
+
+.songItem{
+    height: 50px;
+    /* width: 80%; */
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    border-radius: 23px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 23px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 9.5vw;
+    font-family: 'Circular', 'Montserrat', 'Poppins', 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.songInfo img{
+    opacity: 1;
+    transition: opacity 0.23s ease-in;
+}
+
+#gif{
+    opacity: 0;
+}
